@@ -2,4 +2,5 @@ httpx
 python-dotenv
 pytest
 pydantic
-beatifulsoup4
+beautifulsoup4
+respx
