@@ -2,14 +2,11 @@ import httpx
 from bs4 import BeautifulSoup
 
 from radar.modelos import Vaga
+from radar.texto import limpar_html
+
 
 URL = "https://remotive.com/api/remote-jobs"
 CABECALHOS = {"User-Agent": "radar-vagas (projeto de estudo)"}
-
-
-def limpar_html(html: str) -> str:
-    """Tira as tags HTML e junta os espaços."""
-    return BeautifulSoup(html or "", "html.parser").get_text(" ", strip=True)
 
 
 def converter(item: dict) -> Vaga:
