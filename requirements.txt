@@ -4,3 +4,5 @@ pytest
 pydantic
 beautifulsoup4
 respx
+sqlalchemy
+psycopg[binary]
