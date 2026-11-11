@@ -9,5 +9,7 @@ Coleta vagas de back-end, automação e IA, ordena pela compatibilidade com o me
     pytest -v
 
 ## Fontes
+## Fontes
 
 - Vagas remotas: [Remotive](https://remotive.com), pela API pública oficial.
+- Vagas no Brasil: [Jobs by Adzuna](https://www.adzuna.com.br).
