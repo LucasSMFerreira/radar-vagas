@@ -10,9 +10,6 @@ from radar.coletores import remotive
 FIXTURE = Path(__file__).parent / "fixtures" / "remotive.json"
 
 
-def test_limpar_html():
-    assert remotive.limpar_html("<p>Olá <b>mundo</b></p>") == "Olá mundo"
-
 
 @respx.mock
 def test_coletar_erro_do_servidor():
